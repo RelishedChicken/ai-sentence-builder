@@ -68,7 +68,7 @@ function generateText(){
 
         //Loop through and construct the sentence        
         for(i=0;i<generation_length;i++){
-            
+            ''
             //Get the possible next words
             availableWordSelection = getNextWord(prevWords[0], prevWords[1]);
 
